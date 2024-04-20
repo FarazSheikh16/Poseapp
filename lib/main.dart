@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Multi-page App',
       initialRoute: '/',
       routes: {
-        '/': (context) => DisplayPage(),
+        '/': (context) => WelcomePage(),
         '/login': (context) => LoginPage(),
       },
     );
